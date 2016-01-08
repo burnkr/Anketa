@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+    background	: linear-gradient(to right, #929292 , #E1E1E1, #929292);
+}
+
+p {
+    display: inline;
+}
+
+h3 {
+    margin: 5px auto;
+    display: block;
+}
+
+ol {
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li:nth-child(even) { float: right}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+meter {
+    width: 95%;
+}
+
+td:nth-child(even) {
+    width: 100%;
+}
+
+input
+{
+    border: 		1px solid #333;
+    border-radius:	5px;
+}
+
+input[required]:invalid { border-color: #ff0000}
+
+input[required]:valid{ border-color: #0B9900}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width:  100px;
+}
+
+#container {
+    width :         50%;
+    padding:        10px;
+    margin:         5% auto 0;
+    background	:   linear-gradient(to top,  #929292, #E1E1E1, #E1E1E1, #E1E1E1, #929292);
+    border-radius : 15px;
+}
